@@ -1,60 +1,57 @@
 [
   {
     "id": "morning-routine",
-    "title": "Утренний блок (7:30-10:30)",
+    "title": "Утренний блок (8:00-12:00)",
     "description": "Теория и легкая практика",
     "completed": false,
     "priority": "high",
-    "tags": ["learning", "frontend"],
+    "tags": [
+      "learning",
+      "frontend"
+    ],
     "createdAt": "2025-07-16T07:30:00.000Z",
-    "updatedAt": "2025-07-16T07:30:00.000Z",
+    "updatedAt": "2025-07-16T05:45:40.355Z",
     "subtasks": [
       {
         "id": "morning-breakfast",
-        "title": "Завтрак",
+        "title": "Завтрак (8:00-8:20)",
         "description": "Прием пищи и подготовка к дню",
         "completed": false,
         "priority": "medium",
-        "tags": ["health"],
+        "tags": [
+          "health"
+        ],
         "createdAt": "2025-07-16T07:30:00.000Z",
-        "updatedAt": "2025-07-16T07:30:00.000Z",
+        "updatedAt": "2025-07-16T06:26:29.697Z",
         "parentId": "morning-routine",
         "subtasks": [],
         "progress": 0
       },
       {
         "id": "theory-study",
-        "title": "Изучение теории (8:00-9:00)",
-        "description": "3 концепции фронтенда из списка",
+        "title": "Изучение теории (8:20-11:00)",
+        "description": "Все что нужно, а нужно - все",
         "completed": false,
         "priority": "high",
-        "tags": ["javascript", "react"],
+        "tags": [
+          "javascript",
+          "react"
+        ],
         "createdAt": "2025-07-16T08:00:00.000Z",
-        "updatedAt": "2025-07-16T08:00:00.000Z",
+        "updatedAt": "2025-07-16T05:46:02.032Z",
         "parentId": "morning-routine",
         "subtasks": [
           {
             "id": "theory-1",
-            "title": "Virtual DOM",
-            "description": "Изучить принципы работы",
+            "title": "Obsidian",
+            "description": "Доучить это - https://docs.google.com/document/d/1n91XkLpac47l4-J9J9VeR8ZvqRbjfINV6rEAR9Q2BGw/edit?tab=t.0\n\nи все остальное",
             "completed": false,
             "priority": "high",
-            "tags": ["react"],
+            "tags": [
+              "react"
+            ],
             "createdAt": "2025-07-16T08:00:00.000Z",
-            "updatedAt": "2025-07-16T08:00:00.000Z",
-            "parentId": "theory-study",
-            "subtasks": [],
-            "progress": 0
-          },
-          {
-            "id": "theory-2",
-            "title": "Closures",
-            "description": "Разобрать примеры замыканий",
-            "completed": false,
-            "priority": "high",
-            "tags": ["javascript"],
-            "createdAt": "2025-07-16T08:00:00.000Z",
-            "updatedAt": "2025-07-16T08:00:00.000Z",
+            "updatedAt": "2025-07-16T05:42:35.113Z",
             "parentId": "theory-study",
             "subtasks": [],
             "progress": 0
@@ -64,32 +61,22 @@
       },
       {
         "id": "morning-practice",
-        "title": "Практика (9:00-10:00)",
+        "title": "Практика (11:00-12:00)",
         "description": "Мини-проект на CodePen",
         "completed": false,
         "priority": "high",
-        "tags": ["coding"],
+        "tags": [
+          "coding"
+        ],
         "createdAt": "2025-07-16T09:00:00.000Z",
-        "updatedAt": "2025-07-16T09:00:00.000Z",
-        "parentId": "morning-routine",
-        "subtasks": [],
-        "progress": 0
-      },
-      {
-        "id": "morning-games",
-        "title": "Игровая пауза (10:00-10:30)",
-        "description": "CSS Diner или шахматы",
-        "completed": false,
-        "priority": "low",
-        "tags": ["relax"],
-        "createdAt": "2025-07-16T10:00:00.000Z",
-        "updatedAt": "2025-07-16T10:00:00.000Z",
+        "updatedAt": "2025-07-16T05:44:18.361Z",
         "parentId": "morning-routine",
         "subtasks": [],
         "progress": 0
       }
     ],
-    "progress": 0
+    "progress": 0,
+    "estimatedTime": 4
   },
   {
     "id": "day-routine",
@@ -97,7 +84,10 @@
     "description": "Работа над основным проектом",
     "completed": false,
     "priority": "high",
-    "tags": ["project", "coding"],
+    "tags": [
+      "project",
+      "coding"
+    ],
     "createdAt": "2025-07-16T11:00:00.000Z",
     "updatedAt": "2025-07-16T11:00:00.000Z",
     "subtasks": [
@@ -107,7 +97,10 @@
         "description": "Реализация новой функциональности",
         "completed": false,
         "priority": "high",
-        "tags": ["react", "redux"],
+        "tags": [
+          "react",
+          "redux"
+        ],
         "createdAt": "2025-07-16T11:00:00.000Z",
         "updatedAt": "2025-07-16T11:00:00.000Z",
         "parentId": "day-routine",
@@ -118,7 +111,10 @@
             "description": "Пошаговая реализация 5 проектов",
             "completed": false,
             "priority": "high",
-            "tags": ["coding", "projects"],
+            "tags": [
+              "coding",
+              "projects"
+            ],
             "createdAt": "2025-07-16T11:00:00.000Z",
             "updatedAt": "2025-07-16T11:00:00.000Z",
             "progress": 0,
@@ -129,7 +125,10 @@
                 "description": "SSR/SSG блог с Markdown",
                 "completed": false,
                 "priority": "high",
-                "tags": ["nextjs", "typescript"],
+                "tags": [
+                  "nextjs",
+                  "typescript"
+                ],
                 "createdAt": "2025-07-16T11:00:00.000Z",
                 "updatedAt": "2025-07-16T11:00:00.000Z",
                 "parentId": "day-projects",
@@ -140,7 +139,9 @@
                     "title": "Настройка проекта",
                     "completed": false,
                     "priority": "medium",
-                    "tags": ["setup"],
+                    "tags": [
+                      "setup"
+                    ],
                     "createdAt": "2025-07-16T11:00:00.000Z",
                     "updatedAt": "2025-07-16T11:00:00.000Z",
                     "parentId": "project-1",
@@ -152,7 +153,9 @@
                         "description": "npx create-next-app --ts",
                         "completed": false,
                         "priority": "medium",
-                        "tags": ["cli"],
+                        "tags": [
+                          "cli"
+                        ],
                         "createdAt": "2025-07-16T11:00:00.000Z",
                         "updatedAt": "2025-07-16T11:00:00.000Z",
                         "parentId": "p1-setup",
@@ -165,7 +168,9 @@
                         "description": "Создание папок features, entities, widgets",
                         "completed": false,
                         "priority": "medium",
-                        "tags": ["architecture"],
+                        "tags": [
+                          "architecture"
+                        ],
                         "createdAt": "2025-07-16T11:00:00.000Z",
                         "updatedAt": "2025-07-16T11:00:00.000Z",
                         "parentId": "p1-setup",
@@ -179,7 +184,9 @@
                     "title": "Создание страниц",
                     "completed": false,
                     "priority": "high",
-                    "tags": ["pages"],
+                    "tags": [
+                      "pages"
+                    ],
                     "createdAt": "2025-07-16T11:00:00.000Z",
                     "updatedAt": "2025-07-16T11:00:00.000Z",
                     "parentId": "project-1",
@@ -191,7 +198,9 @@
                         "description": "Использование getStaticProps",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["ssg"],
+                        "tags": [
+                          "ssg"
+                        ],
                         "createdAt": "2025-07-16T11:00:00.000Z",
                         "updatedAt": "2025-07-16T11:00:00.000Z",
                         "parentId": "p1-pages",
@@ -204,7 +213,9 @@
                         "description": "react-markdown + gray-matter",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["markdown"],
+                        "tags": [
+                          "markdown"
+                        ],
                         "createdAt": "2025-07-16T11:00:00.000Z",
                         "updatedAt": "2025-07-16T11:00:00.000Z",
                         "parentId": "p1-pages",
@@ -221,7 +232,10 @@
                 "description": "SPA с корзиной и фильтрацией",
                 "completed": false,
                 "priority": "high",
-                "tags": ["react", "redux"],
+                "tags": [
+                  "react",
+                  "redux"
+                ],
                 "createdAt": "2025-07-17T11:00:00.000Z",
                 "updatedAt": "2025-07-17T11:00:00.000Z",
                 "parentId": "day-projects",
@@ -232,7 +246,9 @@
                     "title": "Настройка хранилища",
                     "completed": false,
                     "priority": "medium",
-                    "tags": ["state"],
+                    "tags": [
+                      "state"
+                    ],
                     "createdAt": "2025-07-17T11:00:00.000Z",
                     "updatedAt": "2025-07-17T11:00:00.000Z",
                     "parentId": "project-2",
@@ -244,7 +260,9 @@
                         "description": "configureStore + createSlice",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["redux"],
+                        "tags": [
+                          "redux"
+                        ],
                         "createdAt": "2025-07-17T11:00:00.000Z",
                         "updatedAt": "2025-07-17T11:00:00.000Z",
                         "parentId": "p2-setup",
@@ -257,7 +275,9 @@
                         "description": "createApi с endpoints",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["api"],
+                        "tags": [
+                          "api"
+                        ],
                         "createdAt": "2025-07-17T11:00:00.000Z",
                         "updatedAt": "2025-07-17T11:00:00.000Z",
                         "parentId": "p2-setup",
@@ -271,7 +291,9 @@
                     "title": "Реализация интерфейса",
                     "completed": false,
                     "priority": "high",
-                    "tags": ["ui"],
+                    "tags": [
+                      "ui"
+                    ],
                     "createdAt": "2025-07-17T11:00:00.000Z",
                     "updatedAt": "2025-07-17T11:00:00.000Z",
                     "parentId": "project-2",
@@ -283,7 +305,9 @@
                         "description": "useGetProductsQuery",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["catalog"],
+                        "tags": [
+                          "catalog"
+                        ],
                         "createdAt": "2025-07-17T11:00:00.000Z",
                         "updatedAt": "2025-07-17T11:00:00.000Z",
                         "parentId": "p2-ui",
@@ -296,7 +320,9 @@
                         "description": "localStorage + middleware",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["cart"],
+                        "tags": [
+                          "cart"
+                        ],
                         "createdAt": "2025-07-17T11:00:00.000Z",
                         "updatedAt": "2025-07-17T11:00:00.000Z",
                         "parentId": "p2-ui",
@@ -313,7 +339,10 @@
                 "description": "Доска с drag-and-drop и WebSockets",
                 "completed": false,
                 "priority": "medium",
-                "tags": ["react", "websockets"],
+                "tags": [
+                  "react",
+                  "websockets"
+                ],
                 "createdAt": "2025-07-18T11:00:00.000Z",
                 "updatedAt": "2025-07-18T11:00:00.000Z",
                 "parentId": "day-projects",
@@ -324,7 +353,9 @@
                     "title": "Базовый функционал",
                     "completed": false,
                     "priority": "high",
-                    "tags": ["dnd"],
+                    "tags": [
+                      "dnd"
+                    ],
                     "createdAt": "2025-07-18T11:00:00.000Z",
                     "updatedAt": "2025-07-18T11:00:00.000Z",
                     "parentId": "project-3",
@@ -336,7 +367,9 @@
                         "description": "DndProvider + useDrag/useDrop",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["setup"],
+                        "tags": [
+                          "setup"
+                        ],
                         "createdAt": "2025-07-18T11:00:00.000Z",
                         "updatedAt": "2025-07-18T11:00:00.000Z",
                         "parentId": "p3-core",
@@ -349,7 +382,9 @@
                         "description": "Zustand для состояния",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["state"],
+                        "tags": [
+                          "state"
+                        ],
                         "createdAt": "2025-07-18T11:00:00.000Z",
                         "updatedAt": "2025-07-18T11:00:00.000Z",
                         "parentId": "p3-core",
@@ -363,7 +398,9 @@
                     "title": "Real-time обновления",
                     "completed": false,
                     "priority": "medium",
-                    "tags": ["websockets"],
+                    "tags": [
+                      "websockets"
+                    ],
                     "createdAt": "2025-07-18T11:00:00.000Z",
                     "updatedAt": "2025-07-18T11:00:00.000Z",
                     "parentId": "project-3",
@@ -375,7 +412,9 @@
                         "description": "useEffect + обработчики событий",
                         "completed": false,
                         "priority": "medium",
-                        "tags": ["realtime"],
+                        "tags": [
+                          "realtime"
+                        ],
                         "createdAt": "2025-07-18T11:00:00.000Z",
                         "updatedAt": "2025-07-18T11:00:00.000Z",
                         "parentId": "p3-real-time",
@@ -392,7 +431,10 @@
                 "description": "Визуализация данных с Chart.js",
                 "completed": false,
                 "priority": "medium",
-                "tags": ["vue", "charts"],
+                "tags": [
+                  "vue",
+                  "charts"
+                ],
                 "createdAt": "2025-07-19T11:00:00.000Z",
                 "updatedAt": "2025-07-19T11:00:00.000Z",
                 "parentId": "day-projects",
@@ -403,7 +445,9 @@
                     "title": "Работа с Vue 3",
                     "completed": false,
                     "priority": "high",
-                    "tags": ["setup"],
+                    "tags": [
+                      "setup"
+                    ],
                     "createdAt": "2025-07-19T11:00:00.000Z",
                     "updatedAt": "2025-07-19T11:00:00.000Z",
                     "parentId": "project-4",
@@ -415,7 +459,9 @@
                         "description": "npm create vite@latest",
                         "completed": false,
                         "priority": "medium",
-                        "tags": ["cli"],
+                        "tags": [
+                          "cli"
+                        ],
                         "createdAt": "2025-07-19T11:00:00.000Z",
                         "updatedAt": "2025-07-19T11:00:00.000Z",
                         "parentId": "p4-vue",
@@ -428,7 +474,9 @@
                         "description": "defineStore + actions",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["state"],
+                        "tags": [
+                          "state"
+                        ],
                         "createdAt": "2025-07-19T11:00:00.000Z",
                         "updatedAt": "2025-07-19T11:00:00.000Z",
                         "parentId": "p4-vue",
@@ -442,7 +490,9 @@
                     "title": "Визуализация данных",
                     "completed": false,
                     "priority": "high",
-                    "tags": ["charts"],
+                    "tags": [
+                      "charts"
+                    ],
                     "createdAt": "2025-07-19T11:00:00.000Z",
                     "updatedAt": "2025-07-19T11:00:00.000Z",
                     "parentId": "project-4",
@@ -454,7 +504,9 @@
                         "description": "Компонент LineChart",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["visualization"],
+                        "tags": [
+                          "visualization"
+                        ],
                         "createdAt": "2025-07-19T11:00:00.000Z",
                         "updatedAt": "2025-07-19T11:00:00.000Z",
                         "parentId": "p4-charts",
@@ -471,7 +523,10 @@
                 "description": "Fullstack с аутентификацией",
                 "completed": false,
                 "priority": "high",
-                "tags": ["fullstack", "auth"],
+                "tags": [
+                  "fullstack",
+                  "auth"
+                ],
                 "createdAt": "2025-07-20T11:00:00.000Z",
                 "updatedAt": "2025-07-20T11:00:00.000Z",
                 "parentId": "day-projects",
@@ -482,7 +537,9 @@
                     "title": "Бэкенд часть",
                     "completed": false,
                     "priority": "high",
-                    "tags": ["nestjs"],
+                    "tags": [
+                      "nestjs"
+                    ],
                     "createdAt": "2025-07-20T11:00:00.000Z",
                     "updatedAt": "2025-07-20T11:00:00.000Z",
                     "parentId": "project-5",
@@ -494,7 +551,9 @@
                         "description": "Контроллеры + сервисы",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["backend"],
+                        "tags": [
+                          "backend"
+                        ],
                         "createdAt": "2025-07-20T11:00:00.000Z",
                         "updatedAt": "2025-07-20T11:00:00.000Z",
                         "parentId": "p5-backend",
@@ -507,7 +566,9 @@
                         "description": "Passport.js + стратегии",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["security"],
+                        "tags": [
+                          "security"
+                        ],
                         "createdAt": "2025-07-20T11:00:00.000Z",
                         "updatedAt": "2025-07-20T11:00:00.000Z",
                         "parentId": "p5-backend",
@@ -521,7 +582,9 @@
                     "title": "Интеграция с фронтендом",
                     "completed": false,
                     "priority": "high",
-                    "tags": ["api"],
+                    "tags": [
+                      "api"
+                    ],
                     "createdAt": "2025-07-20T11:00:00.000Z",
                     "updatedAt": "2025-07-20T11:00:00.000Z",
                     "parentId": "project-5",
@@ -533,7 +596,9 @@
                         "description": "Обработка запросов к бэкенду",
                         "completed": false,
                         "priority": "high",
-                        "tags": ["integration"],
+                        "tags": [
+                          "integration"
+                        ],
                         "createdAt": "2025-07-20T11:00:00.000Z",
                         "updatedAt": "2025-07-20T11:00:00.000Z",
                         "parentId": "p5-integration",
@@ -555,7 +620,10 @@
         "description": "Прием пищи и отдых с играми",
         "completed": false,
         "priority": "medium",
-        "tags": ["health", "relax"],
+        "tags": [
+          "health",
+          "relax"
+        ],
         "createdAt": "2025-07-16T12:30:00.000Z",
         "updatedAt": "2025-07-16T12:30:00.000Z",
         "parentId": "day-routine",
@@ -566,7 +634,9 @@
             "description": "Обед",
             "completed": false,
             "priority": "medium",
-            "tags": ["health"],
+            "tags": [
+              "health"
+            ],
             "createdAt": "2025-07-16T12:30:00.000Z",
             "updatedAt": "2025-07-16T12:30:00.000Z",
             "parentId": "lunch-break",
@@ -579,7 +649,9 @@
             "description": "Human Resource Machine",
             "completed": false,
             "priority": "low",
-            "tags": ["relax"],
+            "tags": [
+              "relax"
+            ],
             "createdAt": "2025-07-16T12:45:00.000Z",
             "updatedAt": "2025-07-16T12:45:00.000Z",
             "parentId": "lunch-break",
@@ -595,7 +667,9 @@
         "description": "Оптимизация кода и исправление багов",
         "completed": false,
         "priority": "high",
-        "tags": ["coding"],
+        "tags": [
+          "coding"
+        ],
         "createdAt": "2025-07-16T13:30:00.000Z",
         "updatedAt": "2025-07-16T13:30:00.000Z",
         "parentId": "day-routine",
@@ -611,7 +685,10 @@
     "description": "Повторение и отдых",
     "completed": false,
     "priority": "medium",
-    "tags": ["review", "relax"],
+    "tags": [
+      "review",
+      "relax"
+    ],
     "createdAt": "2025-07-16T16:00:00.000Z",
     "updatedAt": "2025-07-16T16:00:00.000Z",
     "subtasks": [
@@ -621,7 +698,9 @@
         "description": "Конспект: 3 термина за день",
         "completed": false,
         "priority": "medium",
-        "tags": ["learning"],
+        "tags": [
+          "learning"
+        ],
         "createdAt": "2025-07-16T16:00:00.000Z",
         "updatedAt": "2025-07-16T16:00:00.000Z",
         "parentId": "evening-routine",
@@ -634,7 +713,9 @@
         "description": "Проверка и комментирование своего кода",
         "completed": false,
         "priority": "medium",
-        "tags": ["coding"],
+        "tags": [
+          "coding"
+        ],
         "createdAt": "2025-07-16T16:30:00.000Z",
         "updatedAt": "2025-07-16T16:30:00.000Z",
         "parentId": "evening-routine",
@@ -647,7 +728,10 @@
         "description": "Свободное время без кода",
         "completed": false,
         "priority": "low",
-        "tags": ["health", "relax"],
+        "tags": [
+          "health",
+          "relax"
+        ],
         "createdAt": "2025-07-16T17:30:00.000Z",
         "updatedAt": "2025-07-16T17:30:00.000Z",
         "parentId": "evening-routine",
